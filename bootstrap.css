@@ -1,0 +1,145 @@
+/*Иконка сворачивающегося меню*/
+.gamburger{width: 45px;
+    height: 3px;
+    background-color: white;
+    margin: 2px 0;
+} 
+/*Стиль меню*/
+.navbar{
+ background:#E667AF;
+}
+.nav-link , .navbar-brand{
+ color:white;
+ cursor: pointer;
+}
+.nav-link{
+ margin-right: 1em !important;
+}
+.nav-link:hover{
+ color: black;
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+/*Фото-превью*/
+.header{
+height: 100vh;
+ background-image: url("1.jpg");
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+/*Позиция фоновой картинки превью*/
+.overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 15%;
+ }
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top:5%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.about{
+ margin: 4em 0;
+ padding: 1em;
+ position: relative;
+}
+.about h1{
+ color:#F97300;
+ margin: 2em;
+}
+.about img{
+ height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+.about span{
+ display: block;
+ color: #888;
+ position: absolute;
+ left: 115px;
+}
+.about .desc{
+ padding: 2em;
+ border-left:4px solid #10828C;
+}
+.about .desc h3{
+ color: #10828C;
+}
+.about .desc p{
+ line-height:2;
+ color:#888;
+}
+h5 {text-align:center;
+
+}
+.icon-circle {text-align:center;}
+.descr{text-align:center;}
+.name {color:black;
+	margin-top:3%;
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.ready{background-color:rgba(230, 103, 175,0.3); }
+/*Стиль кнопки */
+.btn {background-color:#E667AF; 
+color:white;
+border-color:black;
+margin-bottom:5%;
+transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;}
+/*Стиль подвала */
+footer{background:#E667AF; height:15%;} 
+
+.social-icons ul{
+list-style: none;
+display: flex;
+justify-content: center;}
+.social-icons ul li a span {
+color: #000;
+width: 34px;
+background: #fff;
+height: 34px;
+text-align: center;
+line-height: 34px;
+border-radius: 20px;
+font-size: 13px;
+margin: 0px 0px;
+border-radius: 20px;
+font-size: 14px;
+ margin: 0px 0px;
+ transition: 0.5s all;
+-webkit-transition: 0.5s all;
+transition: 0.5s all;
+-moz-transition: 0.5s all;
+}
+.social-icons ul li a span:hover{color:#85004B;}
+.copy-bottom-txt p{font-size:15px;
+color:#fff;
+}
+.social-icons ul li:nth-child(2){
+ margin: 0 10%;
+}
+        
+.gallery {margin-top:6%;} 
+.card-text{text-align:center;}
+.aboutpage{margin-right:10%;
+margin-left: 10%;}      
